@@ -1,0 +1,112 @@
+body {
+  font-family: "Minecraft", sans-serif;
+  background-color: #888ac1;
+  color: #eee;
+  text-align: center;
+  padding: 2rem;
+}
+
+* {
+  font-family: "Minecraft", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.btn-again {
+  background-color: #eee;
+  color: #222;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-hint {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+    margin: 1rem 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.number-box {
+  background-color: #eee;
+  color: #222;
+  font-size: 3rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.game-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.input-guess {
+  padding: 0.5rem;
+  width: 100px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-check {
+  background-color: #60b347;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Minecraft", sans-serif;
+}
+
+.result-display .message {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.scoreboard p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
